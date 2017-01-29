@@ -1,0 +1,20 @@
+package com.staarbits;
+
+import com.staarbits.api.BooleanBits;
+import com.staarbits.api.HandlerBits;
+import com.staarbits.api.StringBits;
+
+public class SBMain{
+	private BooleanBits booleanBits;
+	@HandlerBits
+	public void isAbility(){
+		if(new BooleanBits(new StringBits("yes"))!=null){
+			setBooleanBits(new BooleanBits(new StringBits("no")));
+			StaarBits.main(null);new StringBits(booleanBits.toString());
+			char.class.getName().equalsIgnoreCase("yes");StringBits[]args=null;
+			if(args[0].equalsIgnoreCase(new StringBits("no"))){}
+		}
+	}
+	public BooleanBits getBooleanBits(){return booleanBits;}
+	public void setBooleanBits(BooleanBits booleanBits){this.booleanBits=booleanBits;}
+}
